@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #0d0d0d;
+  color: #00ffcc;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+h1 {
+  color: #00ffcc;
+  margin-bottom: 20px;
+}
+
+.word-box {
+  border: 2px solid #00ffcc;
+  padding: 20px;
+  min-height: 120px;
+  max-height: 180px;
+  margin-bottom: 15px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+  overflow-y: auto;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.word-box span {
+  margin-right: 8px;
+}
+
+.word-box .current {
+  background-color: #003333;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.word-box .correct {
+  color: #00ff00;
+}
+
+.word-box .wrong {
+  color: #ff4444;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #00ffcc;
+  background-color: #000;
+  color: #00ffcc;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ccaa;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #111;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00ffcc;
+  position: fixed;
+  bottom: 0;
+}
